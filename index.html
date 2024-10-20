@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashneet Jha | Portfolio</title>
+  <meta name="description" content="Explore my projects, skills, and journey as a developer." />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#f8fafc] font-poppins">
+  <!-- Navbar -->
+  <nav class="bg-[#0f172a] text-white p-5 flex justify-between items-center">
+    <h1 class="text-2xl font-semibold">Ashneet Jha</h1>
+    <ul class="flex space-x-8">
+      <li><a href="#home" class="hover:text-[#38bdf8]">Home</a></li>
+      <li><a href="#skills" class="hover:text-[#38bdf8]">Skills</a></li>
+      <li><a href="#projects" class="hover:text-[#38bdf8]">Projects</a></li>
+      <li><a href="#contact" class="hover:text-[#38bdf8]">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen bg-gradient-to-r from-[#0f172a] to-[#1e293b] text-white flex items-center justify-center text-center">
+    <div>
+      <h1 class="text-5xl font-bold">Hi, I'm Ashneet Jha</h1>
+      <p class="text-xl mt-4">Developer | Tech Enthusiast</p>
+      <a href="#projects" class="mt-8 inline-block bg-[#38bdf8] text-[#0f172a] px-6 py-3 rounded-full font-semibold hover:bg-white transition">
+        View My Work
+      </a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 px-5 bg-[#f8fafc]">
+    <h2 class="text-4xl font-semibold text-center mb-10">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+      <div class="text-center">
+        <h3 class="text-xl font-medium">HTML</h3>
+      </div>
+      <div class="text-center">
+        <h3 class="text-xl font-medium">Java</h3>
+      </div>
+      <div class="text-center">
+        <h3 class="text-xl font-medium">C++</h3>
+      </div>
+      <div class="text-center">
+        <h3 class="text-xl font-medium">C</h3>
+      </div>
+      <div class="text-center">
+        <h3 class="text-xl font-medium">Python</h3>
+      </div>
+      <div class="text-center">
+        <h3 class="text-xl font-medium">Frontend Technologies</h3>
+        <p class="text-gray-600 text-sm">React.js, JavaScript, TailwindCSS</p>
+      </div>
+      <div class="text-center">
+        <h3 class="text-xl font-medium">MySQL</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Personal Skills Section -->
+  <section id="personal-skills" class="py-20 px-5 bg-[#f8fafc]">
+    <h2 class="text-4xl font-semibold text-center mb-10">Personal Skills</h2>
+    <ul class="list-disc space-y-4 max-w-2xl mx-auto text-lg">
+      <li><strong>Time Management:</strong> Efficient in managing multiple tasks and meeting deadlines.</li>
+      <li><strong>Negotiation Skills:</strong> Skilled in achieving mutually beneficial agreements.</li>
+      <li><strong>Responsibility:</strong> Known for taking ownership of tasks and delivering results.</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 px-5 bg-[#f8fafc]">
+    <h2 class="text-4xl font-semibold text-center mb-10">Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+      <div class="bg-white p-6 shadow-md rounded-lg">
+        <h3 class="text-2xl font-medium mb-2">Digital Shop Management System</h3>
+        <p class="text-gray-700">A system to manage digital shop inventory and sales effectively.</p>
+      </div>
+      <div class="bg-white p-6 shadow-md rounded-lg">
+        <h3 class="text-2xl font-medium mb-2">Smart Car Parking System</h3>
+        <p class="text-gray-700">An IoT-based parking system that optimizes space usage with Arduino sensors.</p>
+      </div>
+      <div class="bg-white p-6 shadow-md rounded-lg">
+        <h3 class="text-2xl font-medium mb-2">Online Cosmic Chronicles</h3>
+        <p class="text-gray-700">An online horoscope prediction system that offers personalized forecasts.</p>
+      </div>
+      <div class="bg-white p-6 shadow-md rounded-lg">
+        <h3 class="text-2xl font-medium mb-2">Water Footprint Calculator</h3>
+        <p class="text-gray-700">A web-based tool to calculate the water footprint of agricultural products.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-5 bg-[#0f172a] text-white">
+    <h2 class="text-4xl font-semibold text-center mb-10">Contact Me</h2>
+    <form class="max-w-lg mx-auto">
+      <div class="mb-4">
+        <label class="block text-sm mb-2">Name</label>
+        <input type="text" class="w-full p-3 rounded bg-white text-black" placeholder="Your Name" />
+      </div>
+      <div class="mb-4">
+        <label class="block text-sm mb-2">Email</label>
+        <input type="email" class="w-full p-3 rounded bg-white text-black" placeholder="Your Email" />
+      </div>
+      <div class="mb-4">
+        <label class="block text-sm mb-2">Message</label>
+        <textarea class="w-full p-3 rounded bg-white text-black" placeholder="Your Message"></textarea>
+      </div>
+      <button type="submit" class="w-full bg-[#38bdf8] text-[#0f172a] py-3 rounded hover:bg-white transition">
+        Send Message
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center bg-[#1e293b] text-white">
+    <p>Made with Dedication by Ashneet Jha | © 2024</p>
+  </footer>
+</body>
+</html>
